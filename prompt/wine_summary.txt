@@ -1,0 +1,9 @@
+please write a summary based on the following information of wine products. 
+
+{% for wine in results %}
+    wine name: {{ wine.name }}
+    region: {{ wine.region }}
+    variety: {{ wine.variety }}
+    rating: {{ wine.rating }}
+    notes: {{ wine.notes }}
+{% endfor %}
